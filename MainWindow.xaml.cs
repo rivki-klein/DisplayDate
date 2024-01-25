@@ -23,6 +23,11 @@ namespace DisplayDate
         public MainWindow()
         {
             InitializeComponent();
+            DateTime currentTime = DateTime.Now;
+            string formattedTime = currentTime.ToString("HH:mm:ss");
+            string formattedDate = currentTime.ToString("dd.MM.yyyy");
+
+            myLabel.Content = "Current time: " + formattedTime + ", Current date: " + formattedDate;
         }
     }
 }
