@@ -23,6 +23,7 @@ namespace DisplayDate
         public MainWindow()
         {
             InitializeComponent();
+            int y = 6;
             DateTime currentTime = DateTime.Now;
             string formattedTime = currentTime.ToString("HH:mm:ss");
             string formattedDate = currentTime.ToString("dd.MM.yyyy");
