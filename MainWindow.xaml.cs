@@ -22,7 +22,7 @@ namespace DisplayDate
     {
         public MainWindow()
         {
-            int rivki = 5;
+            int miri = 5;
             InitializeComponent();
             int y = 6;
             DateTime currentTime = DateTime.Now;
