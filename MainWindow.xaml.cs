@@ -22,6 +22,7 @@ namespace DisplayDate
     {
         public MainWindow()
         {
+            int x = 5;
             InitializeComponent();
             DateTime currentTime = DateTime.Now;
             string formattedTime = currentTime.ToString("HH:mm:ss");
